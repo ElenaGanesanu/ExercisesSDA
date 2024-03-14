@@ -1,0 +1,10 @@
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row3 {
+    display:grid;
+    grid-template-rows: repeat(12, 50px);
+    background-color: red;
+}

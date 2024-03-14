@@ -1,0 +1,49 @@
+$var-aqua: aqua;
+$var-red: red;
+
+@mixin mixinTwins($color, $display-value , $flex-val:1 ) {  //$flex-val:1 parametru default
+    background-color: $color;
+    flex: $flex-val;
+    border: 3px solid $color;
+    @if $display-value== "prima clasa" {
+        display: flex; 
+    } 
+    @else if $display-value=="a doua clasa"{
+        display: grid;
+    }
+    @else {
+        display: none;
+    }
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.gemene {
+    @include mixinTwins($var-aqua, "prima clasa");
+    color: #20b2aa;
+}
+
+.gemene2{
+    @include mixinTwins($var-red, "a doua clasa", 1);
+}
+.gemene3{
+    display: flex;
+    flex: 1;
+    border: 3px solid black;
+}
+.gemene4 {
+    @extend .gemene3;
+    background-color: rgb(224, 123, 0);
+    border: 4px solid white;
+}
+

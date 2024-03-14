@@ -1,0 +1,139 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav > h1 {
+    color: #7161ef;
+}
+
+nav a {
+    color: #7161ef;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(60, 11, 112);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    padding: 10px;
+    background-color: #b596e5;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.952);
+}
+
+nav img {
+    height: 20px;
+}
+
+.aboutMe img {
+    height: 50vh;
+    margin: auto;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0bef2;
+    gap: 40px;
+    padding: 30px;
+}
+
+.card {
+    width: 30vw;
+    height: 30vh;
+    background-color: #E5E0FF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.897);
+    overflow: auto;
+}
+
+.moreAbout {
+    padding: 10px;
+    background-color: #c0a7eb;
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+    background-color: #b6a6d4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsLayout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skillsLayoutChild {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.skillsLayoutChild img {
+    height: 10vh;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.897);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.projects {
+    text-align: center;
+    background-color: #b29bdd;
+    padding: 10px;
+    height: 50vh;
+    overflow: auto;
+}
+
+.projectLayout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectItem {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #E5E0FF;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.897);
+    overflow: auto;
+}
+
+.projectItem img {
+    height: 20vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.itemTitle {
+    font-size: large;
+    font-weight: bold;
+}

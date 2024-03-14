@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To do list</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <button onclick="showModal()">+</button>
+    </div>
+    <div class="table-wrapper">
+        <div class="col">
+            <div class="table-header">To do</div>
+            <div class="table-col" id="todo"></div>
+        </div>
+        <div class="col">
+            <div class="table-header">In Progress</div>
+            <div class="table-col" id="inProgress"></div>
+        </div>
+        <div class="col">
+            <div class="table-header">Done</div>
+            <div class="table-col" id="done"></div>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close-btn" onclick="hideModal()">&#x2715;</button>
+            <div class="modal-form">
+                <div class="modal-form-item">
+                    <label>Title</label>
+                    <input id="form-title">
+                </div>
+                <div class="modal-form-item">
+                    <label>Description</label>
+                    <textarea id="form-description" rows="5" style="resize: none;"></textarea>
+                </div>
+                <div class="modal-form-controls">
+                    <!-- <select>
+                        <option>To Do</option>
+                        <option>In Progress</option>
+                        <option>Done</option>
+                    </select> -->
+                    <button onclick="getFormValues()">Add task</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

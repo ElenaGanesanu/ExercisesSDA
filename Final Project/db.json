@@ -1,0 +1,86 @@
+{
+  "advertisements": [
+    {
+      "title": "topor",
+      "description": "mere si fara prieteni, e si mai ieftin",
+      "price": 20,
+      "image": "https://mui.com/static/images/cards/contemplative-reptile.jpg",
+      "id": "2",
+      "favorites": [],
+      "userId": "3c36",
+      "category": "Ustensile"
+    },
+    {
+      "title": "cutit",
+      "description": "cand te supara prietenul",
+      "price": 200,
+      "image": "https://mui.com/static/images/cards/contemplative-reptile.jpg",
+      "id": "3",
+      "favorites": [],
+      "userId": "3c36",
+      "category": "Ustensile"
+    },
+    {
+      "title": "Vila pentru petreceri",
+      "description": "e jucarie, dar totusi",
+      "price": 1000,
+      "image": "https://mui.com/static/images/cards/contemplative-reptile.jpg",
+      "id": "5",
+      "favorites": [],
+      "userId": "3c36"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Ustensile",
+      "id": "9071"
+    },
+    {
+      "name": "Ustensile bucatarie",
+      "id": "5dfb"
+    },
+    {
+      "name": "Turism",
+      "id": "01b0"
+    },
+    {
+      "name": "Electrocasnice si electronice",
+      "id": "203c"
+    },
+    {
+      "name": "Imobiliare",
+      "id": "b4b1"
+    }
+  ],
+  "users": [
+    {
+      "id": "3c36",
+      "username": "marian",
+      "password": "aaaa",
+      "confirmPassword": "aaaa",
+      "email": "iordachescu_alexandru_marian@yahoo.com"
+    },
+    {
+      "id": "aa44",
+      "username": "bianca",
+      "password": "bbbb",
+      "confirmPassword": "bbbb",
+      "email": "marianiordachescu18@gmail.com"
+    },
+    {
+      "id": "6127",
+      "username": "robert",
+      "password": "cccc",
+      "confirmPassword": "cccc",
+      "email": "if_robert@ceva.com"
+    }
+  ],
+  "currentUser": [
+    {
+      "id": "3c36",
+      "username": "marian",
+      "password": "aaaa"
+    }
+  ],
+  "favorites": []
+}

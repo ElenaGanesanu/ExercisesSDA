@@ -1,0 +1,51 @@
+Frontend si Backend sunt 2 componente esentiale ale dezvoltarii web. Acestea lucreaza impreuna pentru a crea un site web sau o aplicatie web functionala si interactiva
+
+Frontend :
+- Se refera la partea client-side a unei aplicatii care este vizibila utilizatorului;
+- Include interfata, layout-ul, design-ul si elementele interactive;
+- Se concentreaza pe crearea unei interfete prietenoasa si responsive, crearea de animatii si asigurarea accesibilitatii site-ului pentur toti utilizatorii;
+
+Backend :
+- Se refera la partea server-side, care nu este vizibila utilizatorului;
+- Include serverul, baza de date si logica aplicatiei care proceseaza si gestioneaza datele;
+- Exemple de limbaje : Python, PHP, Ruby, Java, C#, JavaScript;
+- Se concentreza pe dezvoltarea de cod securizat si eficient care poate gestiona cantitati mari de date, procesa cererile utilizatorilor si sa interactioneze cu front-endul;
+
+In general, cererile se fac unidirectional de la clienti la server.
+
+Arhitectura client-server este o Arhitectura de retea care implica distribuirea sarcinii de procesare intre 2 entitati distincte.
+
+Clientul:
+- este entitatea care face solicitari de servicii sau informatii de la server;
+- interactioneaza cu utilizatorul prezentand informatii si permitandu-i sa furnizeze date de intrare;
+
+Serverul:
+- este entitatea care ofera servicii sau furnizeaza date catre clienti;
+- proceseaza cererile primite de la client si returneaza datele solicitate sau efectueaza sarcinile;
+- poate gestiona mai multi clienti simultan si poate fi configurat pentru a executa anumite sarcini sau servicii la nivelul sistemului;
+
+Beneficiile arhitecturii client-server:
+- scalabilitate : serverul poate fi configurat pentru a suporta din ce in ce mai multi clienti ceea ce face posibila extinderea sistemului;
+- securitate : datele si serviciile pot fi protejate la nivel de server ceea ce reduce vulnerabilitatea la atacurile cibernetice;
+- eficienta : arhitectura client-server poate fi optimizata pentru a reduce timpul de procesare si de raspuns al serverului;
+
+O aplicatie software moderna este impartita in:
+
+1. Interfata utilizator (UI) - partea cu care interactioneaza utilizatorul. Aceasta poate fi o interfata grafica (GUI) sau
+o interfata utilizator linie de comanda (CLI).
+
+2. Servicii WEB - partea care ofera servicii si functionalitati catre alte aplicatii sau sisteme prin intermediul protocolului HTTP si al API.
+
+3. Backend - partea din spatele interfetei utilizator care se ocupa de procesarea datelor si de logica business a aplicatiei.
+
+4. Baza de date - partea care stocheaza datele necesare pentru functionarea aplicatiei. Bazele de date pot fi de diferite tipuri : baze de date relationale sau baze de date NoSQL (de tip document sau cheie-valoare).
+
+Ajax (Asynchronous JavaScript and XML) este o tehnologie utilizata in dezvoltarea de aplicatii web care permite actualizarea
+dinamica a continutului unei pagini web fara a fi nevoie de o incarcare completa a paginii.
+
+Principalele caracteristici :
+
+1. Actualizari asincrone
+2. Schimb de date in fundal - Ajax permite requesturi catre server
+3. Utilizarea JavaScript - Ajax utilizeaza JavaScript pentu a interactiona cu serverul si cu pagina web
+4. Utilizarea XML sau JSON - Ajax poate utiliza XML sau JSON pentru a transmite date intre client si server

@@ -1,0 +1,76 @@
+
+
+h1 {
+    color: darkslateblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(157, 134, 175);
+}
+
+article {
+    width: 400px;
+    color: rgb(88, 61, 10);
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px solid rgb(68, 33, 92);
+    /*border-top/botton/left/right: 5px solid rgb(68, 33, 92);*/
+    margin: 20px;
+    /*margin-top/botton/left/right: 20px;*/
+    padding: 20px;
+    /*padding-top/botton/left/right*/
+    display: inline-block;
+    vertical-align: top;
+}
+
+article>img{
+    width: 100%;
+}
+
+#titlu {
+    color: rgb(6, 18, 39);
+}
+
+.subtitlu {
+    color: rgb(35, 90, 76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: blue;
+}
+
+article p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+h1:hover {
+    color: red;
+}
+
+nav {
+    background: rgb(106, 106, 185);
+    padding: 15px;
+
+}
+nav>a {
+    background: rgb(106, 106, 185);
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+nav a:hover {
+    background: rgb(76, 44, 102);
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-color: red;
+    }
+    article {
+        width: 370px;
+    }
+}

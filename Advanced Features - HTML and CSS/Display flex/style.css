@@ -1,0 +1,40 @@
+.Culori {
+    width: 700px;
+    height: 700px;
+    background-color: bisque;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.Red {
+    width: 100px;
+    /* height: 100px; */
+    background-color: red;
+    border: 5px dotted black;
+}
+
+.Galben {
+    width: 100px;
+    /* height: 100px; */
+    background-color: yellow;
+    border: 5px dotted black;
+}
+
+.Blue {
+    width: 100px;
+    /* height: 100px; */
+    background-color: blue;
+    border: 5px dotted black;
+    align-self: flex-end;
+}
+
+.Roz {
+    width: 100px;
+    /* height: 100px; */
+    background-color: palevioletred;
+    border: 5px dotted black;
+}

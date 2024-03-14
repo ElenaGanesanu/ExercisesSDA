@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="meniu">
+            <div class="icon-mage"><img src="./th.jpg">
+            </div>
+            <button class="button"> Dashboard</button>
+            <a href="https://www.google.com/">Document</a>
+            <a href="https://www.google.com/">Contact</a>
+            <a href="https://www.google.com/">Prospect</a>
+            <a href="https://www.google.com/">Workflow</a>
+        </div>
+        <div class="header">
+            <h1>Overview</h1>
+            <div class="header">
+                <img class="icon" src="./th (1).jpg">
+                <button class="button">Administrator</button>
+            </div>
+        </div>
+        <div class="doc">
+            <h3>Document</h3>
+            <button class="btn"><i class="fa fa-bars"></i></button>
+            <div>
+                <p class="value">146.000</p>
+                <p><b><span>+17%</span> Since last week</b></p>
+            </div>
+        </div>
+        <div class="content">
+            <h3>Content</h3>
+            <button class="btn"><i class="fa fa-bars"></i></button>
+            <div>
+                <p class="value">178.000</p>
+                <p><b><span class="red">-15%</span> Since last week</b></p>
+            </div>
+        </div>
+        <div class="email">
+            <h3>Email</h3>
+            <button class="btn"><i class="fa fa-bars"></i></button>
+            <div>
+                <p class="value">156.000</p>
+                <p><b><span>+20%</span> Since last week</b></p>
+            </div>
+        </div>
+        <div class="admin">
+            <div><h2>Popular Products</h2>
+            </div>
+            <div class="admin-child">
+                <div class="product">
+                    <div class="product-child">
+                        <img id="circle" src="./icon.jpg"/>
+                    </div>
+                    <div>
+                        <div><b>Gadget</b>
+                        </div>
+                        <div class="price">$260</div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-child">
+                        <img id="circle" src="./icon.jpg"/>
+                    </div>
+                    <div>
+                        <div><b>Gadget</b>
+                        </div>
+                        <div class="price">$260</div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-child">
+                        <img id="circle" src="./icon.jpg"/>
+                    </div>
+                    <div>
+                        <div><b>Gadget</b>
+                        </div>
+                        <div class="price">$260</div>
+                    </div>
+                </div>
+            </div>
+            <div><h2>Chat</h2>
+            </div>
+            <div class="admin-child">
+                <div class="product">
+                    <div class="product-child">
+                        <img id="circle" src="./icon.jpg"/>
+                    </div>
+                    <div>
+                        <div><b>Debora Young</b>
+                        </div>
+                        <div class="price">Hello</div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-child">
+                        <img id="circle" src="./icon.jpg"/>
+                    </div>
+                    <div>
+                        <div><b>Another name</b>
+                        </div>
+                        <div class="price">hi</div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-child">
+                        <img id="circle" src="./icon.jpg"/>
+                    </div>
+                    <div>
+                        <div><b>Another name</b>
+                        </div>
+                        <div class="price">bla bla</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="workflow">
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+        </div>
+        <div class="marketing">
+            <canvas id="myPie" style="width:100%;max-width:600px"></canvas>
+        </div>
+        <div class="table">
+            <div class="theader">
+                <div>
+                    <div class="theader-title">
+                        <div >
+                            <div>
+                                <b>Document</b>
+                            </div>
+                            <div>
+                                <p>Document something</p>
+                            </div>
+                        </div>
+                        <div>
+                            <lable for="TypeData">Chose period</lable>
+                            <select name="TypeData">
+                                <option>Weekly</option>
+                                <option>Montly</option>
+                                <option>Daily</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="table1">
+                            <table>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>File</th>
+                                    <th>Category</th>
+                                    <th>Author</th>
+                                    <th>Status</th>
+                                </tr>
+                                <tr>
+                                    <td>Annual Report</td>
+                                    <td>PDF</td>
+                                    <td>Property</td>
+                                    <td>Name</td>
+                                    <td id="status">Sent</td>
+                                </tr>
+                                <tr>
+                                    <td>Business Plan</td>
+                                    <td>Word</td>
+                                    <td>Cryptocurrency</td>
+                                    <td>Name</td>
+                                    <td id="status">Sent</td>
+                                </tr>
+                                <tr>
+                                    <td>Marketing tool</td>
+                                    <td>PDF</td>
+                                    <td>Content creator</td>
+                                    <td>Name</td>
+                                    <td id="pending">Pending</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        const xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+        const yValues = [35, 25, 30, 24, 15,0];
+        const barColors = ["red", "green","blue","orange","brown"];
+        
+        const xPie= ["Assigned","In Progress","Pending","Resolved","Closed"];
+        const yPie= [40, 37,16, 28, 19];
+        const pieColors=[ "brown","blue","orange","green","red"];
+        
+        new Chart("myChart", {
+            type: "bar",
+            data: {
+            labels: xValues,
+            datasets: [{
+                backgroundColor: barColors,
+                data: yValues
+            }]
+            },
+            options: {
+            legend: {display: false},
+            title: {
+                display: true,
+                text: "World Wine Production 2018"
+            }
+            }
+        });
+
+        new Chart("myPie", {
+            type: "pie",
+            data: {
+            labels: xValues,
+            datasets: [{
+                backgroundColor: barColors,
+                data: yValues
+            }]
+            },
+            options: {
+            title: {
+                display: true,
+                text: "World Wine Production 2018"
+            }
+            }
+        });
+
+    </script>
+</html>

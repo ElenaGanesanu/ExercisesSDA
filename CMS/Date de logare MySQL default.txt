@@ -1,0 +1,14 @@
+Date de logare MySQL default:
+username: root
+password:
+Obs.: Parola e goala!
+1. Descarcam/verificam daca XAMPP/WAMP este instalat
+2. Descarcam Wordpress de pe wordpress.org/download
+3. Dezarhivam wordpress.zip in xampp/htdocs sau in wamp64/wwww in functie de programul pe care il folosim
+Obs.: localhost/ reprezinta locatia www sau htdocs in functie de programul folosit
+      localhost/wordpress va reprezenta folderul nostru de wordpress
+4. Accesam in browser localhost/wordpress (unde wordpress este numele folderului dezarhivat)
+5. Creem o baza de date in localhost/phpmyadmin
+6. Dam datele de autentificare si numele bazei de date in instalerul de la wordpress
+7. Completam pasii ramasi dar suntem atenti la username si password deoarece cu aceste credentiale ne vom conecta initial la site. (tot ce e aici putem modifica ulterior)
+8. Wordpress este instalat cu success!

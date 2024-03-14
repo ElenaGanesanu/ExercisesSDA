@@ -1,0 +1,36 @@
+.webpage{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px minmax(200px, 1fr) 50px;
+    grid-template-areas: 
+        'header'
+        'content'
+        'footer' ;
+    grid-gap: 100px;
+}
+
+.header{
+    background-color: red;
+    grid-area: header;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-area: content;
+    grid-gap: 50px;
+
+}
+
+.main{
+    background-color: blue;
+}
+
+.aside{
+    background-color: darkblue;
+}
+
+.footer{
+    background-color: yellow;
+    grid-area: footer;
+}

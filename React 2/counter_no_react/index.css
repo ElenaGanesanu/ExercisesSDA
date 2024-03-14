@@ -1,0 +1,18 @@
+.counter-container {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.counter-display {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.counter-controls {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.2rem;
+}

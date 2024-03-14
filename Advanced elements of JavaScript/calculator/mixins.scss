@@ -1,0 +1,12 @@
+@mixin customBustom($position: 'all') {
+    @if $position == 'all' {
+        border: 1px solid red;
+    } @else {
+        border-#{$position}: 1px solid red;
+    }
+}
+
+@mixin smartFontSize($font-size) {
+    font-size: $font-size;
+    line-height: $font-size + 0.2rem;
+}

@@ -1,0 +1,227 @@
+body {
+    background-color: rgb(33, 30, 71);
+}
+
+.container {
+    width: 97vw;
+    height:97vh;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-areas:'meniu meniu meniu header header header header header header header header header'
+                        'meniu meniu meniu doc doc content content email email admin admin admin'
+                        'meniu meniu meniu workflow workflow workflow marketing marketing marketing admin admin admin'
+                        'meniu meniu meniu table table table table table table admin admin admin';
+    grid-template-rows: 9vh auto auto auto;
+    grid-template-columns: 5vw auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.container>div {
+    border: 5px solid rgb(172, 149, 121);
+    border-radius: 20px;
+}
+
+.meniu {
+    grid-area: meniu;
+    background-image: url(./night-sky-1-500x889.jpg);
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon-mage {
+    width: 80px;
+}
+
+img {
+    width: 80px;
+}
+
+.button {
+    background-color: rgb(49, 49, 97);
+    width: 250px;
+    color: aliceblue;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    border: 2px dashed white;
+    box-shadow: 5px 5px 10px rgb(77, 74, 74);
+}
+
+.button:hover {
+    color: rgb(163, 89, 233);
+}
+
+a {
+    color:rgb(178, 178, 211);
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none !important;
+}
+
+h1 {
+    color:rgb(150, 150, 211);
+}
+
+.icon {
+    width: 30px;
+}
+
+.doc {
+    grid-area: doc;
+    background-color: rgb(240, 183, 145);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.btn {
+    width: 40px;
+    background-color: rgb(54, 54, 104);
+    color: aliceblue;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+span {
+    color: green;
+}
+
+.value {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.content {
+    grid-area: content;
+    background-color: rgb(240, 183, 145);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.email {
+    grid-area: email;
+    background-color: rgb(240, 183, 145);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.admin {
+    grid-area: admin;
+    background-color: rgb(240, 183, 145);
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-child {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.product-child {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 15px;
+}
+
+#circle {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.price {
+    color: rgb(204, 240, 228);
+}
+
+.workflow {
+    grid-area: workflow;
+    background-color: rgb(240, 183, 145);
+}
+
+.marketing {
+    grid-area: marketing;
+    background-color: rgb(240, 183, 145);
+}
+
+.table {
+    grid-area: table;
+    background-color: rgb(221, 190, 169);
+    display: flex;
+    flex-direction: column;
+}
+
+.thead {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.theader-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+table{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+th {
+    padding: 20px;
+}
+
+td {
+    padding: 20px;
+}
+
+.table1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#status {
+    background-color: rgba(112, 175, 53, 0.582);
+    border-radius: 60px;
+    color: black;
+}
+
+#pending {
+    background-color: rgba(211, 53, 32, 0.534);
+    border-radius: 60px;
+    color: rgb(3, 3, 3);
+}

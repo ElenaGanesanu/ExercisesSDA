@@ -1,0 +1,9 @@
+1. Download and preview this package.
+
+2. Apply the classes to the code just like this example ( https://getbootstrap.com/docs/4.5/components/navs/#base-nav ).
+
+
+
+3. Compare the differences.
+
+4. Add the nav-tabs class to the same ul and compare the results.

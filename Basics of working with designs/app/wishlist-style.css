@@ -1,0 +1,117 @@
+.navbar {
+    display: flex;
+    width:300px;
+    height: 80px;
+    justify-content: space-around;
+
+}
+
+.wishlist-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+
+.style-wishlist {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width:141px;
+    height:36px;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.back-icon {
+    justify-content: flex-start;
+    align-self: flex-start;
+    height: 30px;
+}
+
+.image-conainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.style-fashion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.fashion-card{
+    display: flex;
+}
+
+.fashion-image {
+    display: flex;
+    align-items: flex-start;
+}
+
+.favourite-icon {
+    margin-left: -45px;
+    padding-top: 8px;
+    height: 35px;
+}
+
+.fashion-details{
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.fashion-detail-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.add-button{
+    width: 95px;
+    height: 35px;
+    border-radius: 5px;
+    background-color:#5C5C5C;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.fashion-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.create-list-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 110px;
+    margin-top: 20px;
+    width: 380px;
+}
+
+.create-list-icon-container{
+    display: flex;
+    padding-left: 25px;
+}
+
+.create-list-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5C5C5C;
+}

@@ -1,0 +1,43 @@
+/*@use "variabile.scss";*/
+$body-bg-color: #000;
+$title-color: #FFF;
+$nav-bg-color:#565380;
+
+body {
+    background-color: $body-bg-color;
+}
+
+.titlu {
+    color: $title-color;
+}
+
+.sda-navbar {
+    background-color: $nav-bg-color;
+    position: absolute;
+    width: 100%;
+    ul {
+        margin: 0%;
+        padding: 0%;
+        border: 3px solid #691616;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                display: block;
+                text-decoration: dotted;
+                text-transform: uppercase;
+                color: $body-bg-color;
+                &:hover {
+                    background-color: rgb(49, 73, 65);
+                    color:red;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+

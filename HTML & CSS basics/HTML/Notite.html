@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>NOTITE</title>
+    </head>
+    <body>
+        <h1>Hello world ^^</h1>
+        <h2>Diferenta aici</h2>
+        <h3>Este doar de marime</h3>
+        <h4>Iar asta e doar un titlu</h4>
+        <h5>Hello world ^^</h5>
+        <h6>Hello world ^^</h6>
+        <p><strong>Aici</strong> e un <b>paragraf</b>.</p>
+        <p><i>Asta</i> e un alt paragraf<br>Si asa e un aliniat nou</p>
+        <p><mark>Alt paragraf</mark></p>
+        <p><sub>100</sub></p>
+        <p><supra>200</supra></p>
+    </body>
+
+
+<a href="https://google.com" target="_blank">Click aici pentru google in alta pagina</a>
+<a href="https://google.com">Click aici pentru google pe aceeasi pagina</a>
+<a href="https://google.com"><img src="images/breaking.jpg" alt="Breaking News Link Image" width="500" or height="600"></a>
+<img src="images/breaking.jpg" alt="Breaking News" width="500" or height="600">
+<img src="images/breakingWRONG.jpg" alt="Breaking News Wrong" width="500" or height="600">
+
+<!--Tag-uri de continut-->
+<!--comentariu/notite
+    Asa se face un comentariu-->
+
+
+    <ul> 
+        <li>Asta</li>
+        <li>e o lista</li>
+        <li>neordonata</li>
+    </ul>
+    <ol>
+        <li>Asta</li>
+        <li>e o lista</li>
+        <li>ordonata</li>
+
+    </ol>
+    <ol>
+        <li>Asta</li>
+        <li>e o lista</li>
+        <li>ordonata</li>
+        <ul> Sublista
+            <li>Asta</li>
+            <li>e o lista</li>
+            <li>neordonata</li>
+        </ul>
+    </ol>
+
+
+    <!--cum se face un tabel-->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nume si Prenume</th>
+                <th>Adresa</th>
+                <th>Nr. Telefon</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>45</td>
+                <td>Ion Vasile</td>
+                <td>Str. Maica</td>
+                <td>0736346734</td>
+            </tr>
+            <tr>
+                <td>78</td>
+                <td>Maria Vasile</td>
+                <td>Str. Matei</td>
+                <td>0753636634</td>
+            </tr>
+        </tbody>
+    </table><br>
+    <br>
+
+<table border="1">
+    <thead>
+        <th> Ora </th>
+        <th>Luni</th>
+        <th>Marti</th>
+        <th>Miercuri</th>
+        <th>Joi</th>
+        <th>Vineri</th>
+    </thead>
+    <tbody>
+        <tr><td>08:00-09:00</td>
+            <td>Matematica</td>
+            <td>Istorie</td>
+            <td>Romana</td>
+            <td>Engleza</td>
+            <td>Sport</td>
+        </tr>
+        <tr><td rowspan="2">09:00-11:00</td> <!--itindere pe 2 coloane-->
+            <td>Informatica</td>
+            <td>Logica</td>
+            <td>Romana</td>
+            <td>Matematica</td>
+            <td>Filozofie</td>
+        </tr>
+        <tr>
+            <td>Logica</td>
+            <td>Filozofie</td>
+            <td>Desen</td>
+            <td>Matematica</td>
+            <td>Fizica</td>
+        </tr>
+        <tr><td>11:00-12:00</td>
+            <td>Fizica</td>
+            <td>Romana</td>
+            <td>Matematica</td>
+            <td>Logica</td>
+            <td>Desen</td>
+        </tr>
+        <tr><td>12:00-13:00</td>
+            <td>Istorie</td>
+            <td>Filozofie</td>
+            <td>Logica</td>
+            <td>Romana</td>
+            <td>Fizica</td>
+        </tr>
+        <tr><td>13:00-14:00</td>
+            <td>Geografie</td>
+            <td>Desen</td>
+            <td>Fizica</td>
+            <td colspan="2">Romana</td> <!--itindere pe 2 celule-->
+        </tr>
+    </tbody>
+</table><br>
+<div>Acesta este un div</div> <!--block incepe pe un rand si ocupa pana unde se termina linia pe pagina/dimensiune ajustabila-->
+<div>Acesta este un div</div>
+<span>Acesta este un span</span> <!--in line ocupa numai cat are nevoie ca sa afiseze continutul-->
+<span>Acesta este un span</span>
+
+
+<!--tag-uri de semantica folosite pentru delimitarea sectiunilor din html-->
+
+<artice></artice>
+<header></header>
+<footer></footer>
+<section></section>
+<nav></nav>
+<canvas></canvas>
+<svg></svg> <!--tip de imagine care pastreaza calitatea oricum ai altera marimea imaginii-->
+<audio></audio>
+<video></video>
+<video controls>
+    <source src="video/queen.mp4" type="video/mp4">
+</video>
+
+<!--html FORMS-->
+<form method="GET"></form>
+<form method="POST"></form>
+<br><br><br>
+<form method="post" action="login.php">
+    <label for="username">Introduceti adresa de e-mail</label>
+    <input type="email" name="username" id="username" placeholder="E-mail" required>
+    <br>
+    <label for="parola">Introduceti Parola</label>
+    <input type="password" name="parola" id="parola" placeholder="Parola" required>
+    <br>
+    <input type="submit" value="login">
+</form>
+
+    </body>
+</html>
+
+<!--CSS
+    SELECTORI DESCENDENTI
+article>p -doar direct inferioare
+article p -toate paragrafele din article-->

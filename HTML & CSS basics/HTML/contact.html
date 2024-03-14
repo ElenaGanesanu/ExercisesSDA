@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="noutati.html">Noutati</a>
+            <a href="video.html">Video</a>
+            <a href="contact.html">Contact</a><br>
+        </nav>
+        <h1>Contact</h1>
+    </header>
+    <form method="post" action="login.php">
+        <table>
+            <thead>
+                <th colespan="2">Formular</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="Nume">Introduceti nume</label></td>
+                    <td><input type="text" name="Nume" id="Nume" placeholder="Nume" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Prenume">Introduceti prenume</label></td>
+                    <td><input type="text" name="Prenume" id="Prenume" placeholder="Prenume" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Introduceti E-mail</label</td>
+                    <td><input type="email" name="email" id="email" placeholder="E-mail" required></td>
+                </tr>
+                <tr>
+                    <td><label for="nr.telefon">Introduceti numarul de telefon</label></td>
+                    <td><input type="text" name="numar_telefon" id="nr.telefon" placeholder="Nr. telefon" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mesaj">Mesajul dumneavoastra</label></td>
+                    <td><input type="text" name="mesaj" id="mesaj" placeholder="Mesajul dumneavoastra" required></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <input type="submit" value="Trimite">
+</body>
+
+</html>
